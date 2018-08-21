@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA305DC212C450100CD5F80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA305DB212C450100CD5F80 /* main.m */; };
+		2CA305E5212C455200CD5F80 /* JDPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA305E4212C455200CD5F80 /* JDPObject.m */; };
+		2CA305E8212C460800CD5F80 /* JDPChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA305E7212C460800CD5F80 /* JDPChild.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CA305D6212C450100CD5F80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CA305D8212C450100CD5F80 /* JDPrototype */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JDPrototype; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA305DB212C450100CD5F80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA305E2212C451A00CD5F80 /* JDPInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDPInterface.h; sourceTree = "<group>"; };
+		2CA305E3212C455200CD5F80 /* JDPObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDPObject.h; sourceTree = "<group>"; };
+		2CA305E4212C455200CD5F80 /* JDPObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDPObject.m; sourceTree = "<group>"; };
+		2CA305E6212C460800CD5F80 /* JDPChild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDPChild.h; sourceTree = "<group>"; };
+		2CA305E7212C460800CD5F80 /* JDPChild.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDPChild.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA305D5212C450100CD5F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA305CF212C450100CD5F80 = {
+			isa = PBXGroup;
+			children = (
+				2CA305DA212C450100CD5F80 /* JDPrototype */,
+				2CA305D9212C450100CD5F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CA305D9212C450100CD5F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA305D8212C450100CD5F80 /* JDPrototype */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CA305DA212C450100CD5F80 /* JDPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				2CA305DB212C450100CD5F80 /* main.m */,
+				2CA305E2212C451A00CD5F80 /* JDPInterface.h */,
+				2CA305E3212C455200CD5F80 /* JDPObject.h */,
+				2CA305E4212C455200CD5F80 /* JDPObject.m */,
+				2CA305E6212C460800CD5F80 /* JDPChild.h */,
+				2CA305E7212C460800CD5F80 /* JDPChild.m */,
+			);
+			path = JDPrototype;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA305D7212C450100CD5F80 /* JDPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA305DF212C450100CD5F80 /* Build configuration list for PBXNativeTarget "JDPrototype" */;
+			buildPhases = (
+				2CA305D4212C450100CD5F80 /* Sources */,
+				2CA305D5212C450100CD5F80 /* Frameworks */,
+				2CA305D6212C450100CD5F80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDPrototype;
+			productName = JDPrototype;
+			productReference = 2CA305D8212C450100CD5F80 /* JDPrototype */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CA305D0212C450100CD5F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Johnson;
+				TargetAttributes = {
+					2CA305D7212C450100CD5F80 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CA305D3212C450100CD5F80 /* Build configuration list for PBXProject "JDPrototype" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CA305CF212C450100CD5F80;
+			productRefGroup = 2CA305D9212C450100CD5F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CA305D7212C450100CD5F80 /* JDPrototype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA305D4212C450100CD5F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA305DC212C450100CD5F80 /* main.m in Sources */,
+				2CA305E8212C460800CD5F80 /* JDPChild.m in Sources */,
+				2CA305E5212C455200CD5F80 /* JDPObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CA305DD212C450100CD5F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CA305DE212C450100CD5F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CA305E0212C450100CD5F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CA305E1212C450100CD5F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA305D3212C450100CD5F80 /* Build configuration list for PBXProject "JDPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA305DD212C450100CD5F80 /* Debug */,
+				2CA305DE212C450100CD5F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA305DF212C450100CD5F80 /* Build configuration list for PBXNativeTarget "JDPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA305E0212C450100CD5F80 /* Debug */,
+				2CA305E1212C450100CD5F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CA305D0212C450100CD5F80 /* Project object */;
+}
