@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2CA305F6212C494900CD5F80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA305F5212C494900CD5F80 /* main.m */; };
+		2CA30603212C56FA00CD5F80 /* DPMetaGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA30602212C56FA00CD5F80 /* DPMetaGenerator.m */; };
+		2CA30606212C571900CD5F80 /* DPProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA30605212C571900CD5F80 /* DPProductA.m */; };
+		2CA30609212C572500CD5F80 /* DPProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA30608212C572500CD5F80 /* DPProductB.m */; };
+		2CA3060C212C5EA200CD5F80 /* DPMetaProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3060B212C5EA200CD5F80 /* DPMetaProduct.m */; };
+		2CA3060F212C5F1800CD5F80 /* DPProductAGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3060E212C5F1800CD5F80 /* DPProductAGenerator.m */; };
+		2CA30612212C5F2700CD5F80 /* DPProductBGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA30611212C5F2700CD5F80 /* DPProductBGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		2CA305F2212C494900CD5F80 /* DPFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DPFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA305F5212C494900CD5F80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA30601212C56FA00CD5F80 /* DPMetaGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPMetaGenerator.h; sourceTree = "<group>"; };
+		2CA30602212C56FA00CD5F80 /* DPMetaGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPMetaGenerator.m; sourceTree = "<group>"; };
+		2CA30604212C571900CD5F80 /* DPProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPProductA.h; sourceTree = "<group>"; };
+		2CA30605212C571900CD5F80 /* DPProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPProductA.m; sourceTree = "<group>"; };
+		2CA30607212C572500CD5F80 /* DPProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPProductB.h; sourceTree = "<group>"; };
+		2CA30608212C572500CD5F80 /* DPProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPProductB.m; sourceTree = "<group>"; };
+		2CA3060A212C5EA200CD5F80 /* DPMetaProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPMetaProduct.h; sourceTree = "<group>"; };
+		2CA3060B212C5EA200CD5F80 /* DPMetaProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPMetaProduct.m; sourceTree = "<group>"; };
+		2CA3060D212C5F1800CD5F80 /* DPProductAGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPProductAGenerator.h; sourceTree = "<group>"; };
+		2CA3060E212C5F1800CD5F80 /* DPProductAGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPProductAGenerator.m; sourceTree = "<group>"; };
+		2CA30610212C5F2700CD5F80 /* DPProductBGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPProductBGenerator.h; sourceTree = "<group>"; };
+		2CA30611212C5F2700CD5F80 /* DPProductBGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPProductBGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				2CA305F5212C494900CD5F80 /* main.m */,
+				2CA30601212C56FA00CD5F80 /* DPMetaGenerator.h */,
+				2CA30602212C56FA00CD5F80 /* DPMetaGenerator.m */,
+				2CA3060D212C5F1800CD5F80 /* DPProductAGenerator.h */,
+				2CA3060E212C5F1800CD5F80 /* DPProductAGenerator.m */,
+				2CA30610212C5F2700CD5F80 /* DPProductBGenerator.h */,
+				2CA30611212C5F2700CD5F80 /* DPProductBGenerator.m */,
+				2CA3060A212C5EA200CD5F80 /* DPMetaProduct.h */,
+				2CA3060B212C5EA200CD5F80 /* DPMetaProduct.m */,
+				2CA30604212C571900CD5F80 /* DPProductA.h */,
+				2CA30605212C571900CD5F80 /* DPProductA.m */,
+				2CA30607212C572500CD5F80 /* DPProductB.h */,
+				2CA30608212C572500CD5F80 /* DPProductB.m */,
 			);
 			path = DPFactory;
 			sourceTree = "<group>";
@@ -118,6 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA30606212C571900CD5F80 /* DPProductA.m in Sources */,
+				2CA30612212C5F2700CD5F80 /* DPProductBGenerator.m in Sources */,
+				2CA3060F212C5F1800CD5F80 /* DPProductAGenerator.m in Sources */,
+				2CA3060C212C5EA200CD5F80 /* DPMetaProduct.m in Sources */,
+				2CA30603212C56FA00CD5F80 /* DPMetaGenerator.m in Sources */,
+				2CA30609212C572500CD5F80 /* DPProductB.m in Sources */,
 				2CA305F6212C494900CD5F80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

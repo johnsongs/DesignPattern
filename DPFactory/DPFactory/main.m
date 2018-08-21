@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DPProductA.h"
+#import "DPProductB.h"
+#import "DPProductAGenerator.h"
+#import "DPProductBGenerator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        DPMetaGenerator *generator = [[DPProductAGenerator alloc] init];
+        DPMetaProduct *product = [generator factoryMethod];
+        [product showName];
     }
     return 0;
 }
