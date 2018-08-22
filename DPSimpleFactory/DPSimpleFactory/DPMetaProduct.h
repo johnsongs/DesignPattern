@@ -1,8 +1,8 @@
-//  产品抽象类
-//  DPMetaProduct.h
-//  DPFactory
 //
-//  Created by Johnson on 2018/8/21.
+//  DPMetaProduct.h
+//  DPSimpleFactory
+//
+//  Created by Johnson on 2018/8/22.
 //  Copyright © 2018年 Johnson. All rights reserved.
 //
 

@@ -1,4 +1,4 @@
-//
+//  抽象工厂类
 //  DPMetaGenerator.h
 //  DPFactory
 //

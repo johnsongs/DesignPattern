@@ -1,4 +1,4 @@
-//
+//  工厂类B
 //  DPProductBGenerator.h
 //  DPFactory
 //

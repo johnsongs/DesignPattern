@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DPSimpleFactory/DPSimpleFactory.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DPFactory/DPFactory.xcodeproj">
    </FileRef>
    <FileRef
