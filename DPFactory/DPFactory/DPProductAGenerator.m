@@ -11,7 +11,7 @@
 
 @implementation DPProductAGenerator
 
-- (DPMetaProduct *)factoryMethod {
++ (DPMetaProduct *)factoryMethod {
     return [[DPProductA alloc] init];
 }
 

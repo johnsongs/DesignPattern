@@ -1,18 +1,17 @@
 //
 //  main.m
-//  DPSimpleFactory
+//  DPDemo
 //
-//  Created by Johnson on 2018/8/22.
+//  Created by Johnson on 2018/8/23.
 //  Copyright © 2018年 Johnson. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "DPGenerator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        DPMetaProduct *product = [DPGenerator createProduct:DPProductAType];
-        [product showName];
+        // insert code here...
+        NSLog(@"Hello, World!");
     }
     return 0;
 }

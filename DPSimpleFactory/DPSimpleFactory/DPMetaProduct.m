@@ -12,6 +12,11 @@
 
 - (void)showName {
     NSLog(@"Meta Product");
+    [self productInfo];
+}
+
+- (void)productInfo {
+    NSLog(@"nil");
 }
 
 @end

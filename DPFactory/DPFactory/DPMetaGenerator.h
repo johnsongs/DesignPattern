@@ -11,6 +11,6 @@
 
 @interface DPMetaGenerator : NSObject
 
-- (DPMetaProduct *)factoryMethod;
++ (DPMetaProduct *)factoryMethod;
 
 @end

@@ -10,7 +10,7 @@
 
 @implementation DPMetaGenerator
 
-- (DPMetaProduct *)factoryMethod {
++ (DPMetaProduct *)factoryMethod {
     return nil;
 }
 

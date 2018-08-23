@@ -8,7 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DPMetaProduct : NSObject
+@protocol DPProduct
+
+- (void)productInfo;
+
+@end
+
+@interface DPMetaProduct : NSObject <DPProduct>
 
 - (void)showName;
 

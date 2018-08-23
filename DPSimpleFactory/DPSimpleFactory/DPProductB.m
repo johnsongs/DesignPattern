@@ -12,6 +12,11 @@
 
 - (void)showName {
     NSLog(@"我是A产品");
+    [self productInfo];
+}
+
+- (void)productInfo {
+    NSLog(@"ProductB");
 }
 
 @end
