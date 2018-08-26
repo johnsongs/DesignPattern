@@ -13,9 +13,6 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSArray *array = [NSArray arrayWithObjects:@"1", nil];
-        NSMutableArray *mArray = [NSMutableArray arrayWithObjects:@"1", nil];
-        
         DPMetaProduct *productA = [DPProductAGenerator factoryMethod];
         DPMetaProduct *productB = [DPProductBGenerator factoryMethod];
         

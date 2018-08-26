@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DPAMetaProductB.h"
+#import "DPAFactoryA.h"
+#import "DPAFactoryB.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+//        DPAFactoryA *factoryA = [DPAFactoryA factory];
     }
     return 0;
 }

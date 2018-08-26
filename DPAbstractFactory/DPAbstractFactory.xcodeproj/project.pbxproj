@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1B8BAA2132ED8F00839542 /* DPAProductB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B8BA92132ED8F00839542 /* DPAProductB1.m */; };
+		2C1B8BAD2132EDA100839542 /* DPAProductB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B8BAC2132EDA100839542 /* DPAProductB2.m */; };
+		2C1B8BB02132EDB400839542 /* DPAProductA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B8BAF2132EDB400839542 /* DPAProductA1.m */; };
+		2C1B8BB32132EDC100839542 /* DPAProductA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B8BB22132EDC100839542 /* DPAProductA2.m */; };
+		2C57D52A2131857000B13832 /* DPAMetaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D5292131857000B13832 /* DPAMetaFactory.m */; };
+		2C57D534213187B600B13832 /* DPAFactoryA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D533213187B600B13832 /* DPAFactoryA.m */; };
+		2C57D537213187D500B13832 /* DPAFactoryB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D536213187D500B13832 /* DPAFactoryB.m */; };
+		2C57D53C2131886600B13832 /* DPAMetaProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D53B2131886600B13832 /* DPAMetaProductA.m */; };
+		2C57D5402131887E00B13832 /* DPAMetaProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D53F2131887E00B13832 /* DPAMetaProductB.m */; };
 		2C67F0B32130112A00BCA24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67F0B22130112A00BCA24C /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +32,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C1B8BA82132ED8F00839542 /* DPAProductB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAProductB1.h; sourceTree = "<group>"; };
+		2C1B8BA92132ED8F00839542 /* DPAProductB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAProductB1.m; sourceTree = "<group>"; };
+		2C1B8BAB2132EDA100839542 /* DPAProductB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAProductB2.h; sourceTree = "<group>"; };
+		2C1B8BAC2132EDA100839542 /* DPAProductB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAProductB2.m; sourceTree = "<group>"; };
+		2C1B8BAE2132EDB400839542 /* DPAProductA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAProductA1.h; sourceTree = "<group>"; };
+		2C1B8BAF2132EDB400839542 /* DPAProductA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAProductA1.m; sourceTree = "<group>"; };
+		2C1B8BB12132EDC100839542 /* DPAProductA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAProductA2.h; sourceTree = "<group>"; };
+		2C1B8BB22132EDC100839542 /* DPAProductA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAProductA2.m; sourceTree = "<group>"; };
+		2C57D5282131857000B13832 /* DPAMetaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAMetaFactory.h; sourceTree = "<group>"; };
+		2C57D5292131857000B13832 /* DPAMetaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAMetaFactory.m; sourceTree = "<group>"; };
+		2C57D532213187B600B13832 /* DPAFactoryA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAFactoryA.h; sourceTree = "<group>"; };
+		2C57D533213187B600B13832 /* DPAFactoryA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAFactoryA.m; sourceTree = "<group>"; };
+		2C57D535213187D500B13832 /* DPAFactoryB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAFactoryB.h; sourceTree = "<group>"; };
+		2C57D536213187D500B13832 /* DPAFactoryB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAFactoryB.m; sourceTree = "<group>"; };
+		2C57D53A2131886600B13832 /* DPAMetaProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAMetaProductA.h; sourceTree = "<group>"; };
+		2C57D53B2131886600B13832 /* DPAMetaProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAMetaProductA.m; sourceTree = "<group>"; };
+		2C57D53E2131887E00B13832 /* DPAMetaProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAMetaProductB.h; sourceTree = "<group>"; };
+		2C57D53F2131887E00B13832 /* DPAMetaProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAMetaProductB.m; sourceTree = "<group>"; };
 		2C67F0AF2130112A00BCA24C /* DPAbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DPAbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C67F0B22130112A00BCA24C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +65,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C57D52B213185E100B13832 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D5282131857000B13832 /* DPAMetaFactory.h */,
+				2C57D5292131857000B13832 /* DPAMetaFactory.m */,
+				2C57D532213187B600B13832 /* DPAFactoryA.h */,
+				2C57D533213187B600B13832 /* DPAFactoryA.m */,
+				2C57D535213187D500B13832 /* DPAFactoryB.h */,
+				2C57D536213187D500B13832 /* DPAFactoryB.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		2C57D5382131882900B13832 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D53D2131886900B13832 /* ProductB */,
+				2C57D5392131884B00B13832 /* ProductA */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		2C57D5392131884B00B13832 /* ProductA */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D53A2131886600B13832 /* DPAMetaProductA.h */,
+				2C57D53B2131886600B13832 /* DPAMetaProductA.m */,
+				2C1B8BAE2132EDB400839542 /* DPAProductA1.h */,
+				2C1B8BAF2132EDB400839542 /* DPAProductA1.m */,
+				2C1B8BB12132EDC100839542 /* DPAProductA2.h */,
+				2C1B8BB22132EDC100839542 /* DPAProductA2.m */,
+			);
+			path = ProductA;
+			sourceTree = "<group>";
+		};
+		2C57D53D2131886900B13832 /* ProductB */ = {
+			isa = PBXGroup;
+			children = (
+				2C57D53E2131887E00B13832 /* DPAMetaProductB.h */,
+				2C57D53F2131887E00B13832 /* DPAMetaProductB.m */,
+				2C1B8BA82132ED8F00839542 /* DPAProductB1.h */,
+				2C1B8BA92132ED8F00839542 /* DPAProductB1.m */,
+				2C1B8BAB2132EDA100839542 /* DPAProductB2.h */,
+				2C1B8BAC2132EDA100839542 /* DPAProductB2.m */,
+			);
+			path = ProductB;
+			sourceTree = "<group>";
+		};
 		2C67F0A62130112A00BCA24C = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +132,8 @@
 		2C67F0B12130112A00BCA24C /* DPAbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				2C57D52B213185E100B13832 /* Factory */,
+				2C57D5382131882900B13832 /* Product */,
 				2C67F0B22130112A00BCA24C /* main.m */,
 			);
 			path = DPAbstractFactory;
@@ -118,7 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C57D53C2131886600B13832 /* DPAMetaProductA.m in Sources */,
+				2C57D5402131887E00B13832 /* DPAMetaProductB.m in Sources */,
 				2C67F0B32130112A00BCA24C /* main.m in Sources */,
+				2C1B8BAD2132EDA100839542 /* DPAProductB2.m in Sources */,
+				2C1B8BB32132EDC100839542 /* DPAProductA2.m in Sources */,
+				2C1B8BAA2132ED8F00839542 /* DPAProductB1.m in Sources */,
+				2C57D534213187B600B13832 /* DPAFactoryA.m in Sources */,
+				2C57D52A2131857000B13832 /* DPAMetaFactory.m in Sources */,
+				2C1B8BB02132EDB400839542 /* DPAProductA1.m in Sources */,
+				2C57D537213187D500B13832 /* DPAFactoryB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
