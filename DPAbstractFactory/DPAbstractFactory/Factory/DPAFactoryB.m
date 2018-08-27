@@ -12,10 +12,17 @@
 
 @implementation DPAFactoryB
 
-+ (DPAMetaFactory *)createFactory {
-    [DPAProductA2 showName];
-    [DPAProductB2 showName];
-        return [[DPAFactoryB alloc] init];
+- (DPAMetaProductA *)createProductA {
+    DPAProductA2 *productA = [[DPAProductA2 alloc] init];
+    [productA showName];
+    return productA;
 }
+
+- (DPAMetaProductB *)createProductB {
+    DPAProductB2 *productB = [[DPAProductB2 alloc] init];
+    [productB showName];
+    return productB;
+}
+
 
 @end

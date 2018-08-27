@@ -10,12 +10,8 @@
 
 @implementation DPAMetaProductB
 
-- (id)initProductB {
-    if (self = [super init]) {
-//        NSArray
-        
-    }
-    return self;
+- (void)showName {
+    NSLog(@"meta pdoductB");
 }
 
 @end

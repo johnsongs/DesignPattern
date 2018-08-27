@@ -12,23 +12,25 @@
 
 @implementation DPAMetaFactory
 
-+ (DPAMetaFactory *)createFactory {
-    DPAMetaFactory *factory = nil;
-    if ([self isKindOfClass:[DPAFactoryA class]]) {
-        factory = [DPAFactoryA createFactory];
-    }
-    if ([self isKindOfClass:[DPAFactoryB class]]) {
-        factory = [DPAFactoryB createFactory];
-    }
-    return factory;
+- (DPAMetaProductA *)createProductA {
+    DPAMetaProductA *productA = [[DPAMetaProductA alloc] init];
+    [productA showName];
+    return productA;
 }
+
+- (DPAMetaProductB *)createProductB {
+    DPAMetaProductB *productB = [[DPAMetaProductB alloc] init];
+    [productB showName];
+    return productB;
+}
+
 
 @end
 
-@implementation DPAMetaFactory (DPAFactoryCreator)
-
-+ (DPAMetaFactory *)factory {
-    return [DPAMetaFactory createFactory];
-}
-
-@end
+//@implementation DPAMetaFactory (DPAFactoryCreator)
+//
+//+ (DPAMetaFactory *)factory {
+//    return [DPAMetaFactory createFactory];
+//}
+//
+//@end

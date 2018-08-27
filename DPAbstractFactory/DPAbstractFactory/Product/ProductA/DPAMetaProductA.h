@@ -10,6 +10,6 @@
 
 @interface DPAMetaProductA : NSObject
 
-+ (void)showName;
+- (void)showName;
 
 @end

@@ -7,15 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DPAMetaProductA.h"
+#import "DPAMetaProductB.h"
 
 @interface DPAMetaFactory : NSObject
 
-+ (DPAMetaFactory *)createFactory;
+- (DPAMetaProductA *)createProductA;
+- (DPAMetaProductB *)createProductB;
 
 @end
 
-@interface DPAMetaFactory (DPAFactoryCreator)
-
-+ (DPAMetaFactory *)factory;
-
-@end
+//@interface DPAMetaFactory (DPAFactoryCreator)
+//
+//+ (DPAMetaFactory *)factory;
+//
+//@end

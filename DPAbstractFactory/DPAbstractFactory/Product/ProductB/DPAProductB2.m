@@ -10,7 +10,7 @@
 
 @implementation DPAProductB2
 
-+ (void)showName {
+- (void)showName {
     NSLog(@"DPAProductB2");
 }
 

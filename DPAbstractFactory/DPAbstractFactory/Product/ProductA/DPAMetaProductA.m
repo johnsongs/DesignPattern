@@ -10,4 +10,8 @@
 
 @implementation DPAMetaProductA
 
+- (void)showName {
+    NSLog(@"meta pdoductA");
+}
+
 @end
