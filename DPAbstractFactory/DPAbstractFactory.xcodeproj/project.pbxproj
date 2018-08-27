@@ -16,6 +16,7 @@
 		2C57D537213187D500B13832 /* DPAFactoryB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D536213187D500B13832 /* DPAFactoryB.m */; };
 		2C57D53C2131886600B13832 /* DPAMetaProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D53B2131886600B13832 /* DPAMetaProductA.m */; };
 		2C57D5402131887E00B13832 /* DPAMetaProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D53F2131887E00B13832 /* DPAMetaProductB.m */; };
+		2C0DE657213135A90053D287 /* DPAMetaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0DE656213135A90053D287 /* DPAMetaFactory.m */; };
 		2C67F0B32130112A00BCA24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67F0B22130112A00BCA24C /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+
 		2C1B8BA82132ED8F00839542 /* DPAProductB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAProductB1.h; sourceTree = "<group>"; };
 		2C1B8BA92132ED8F00839542 /* DPAProductB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAProductB1.m; sourceTree = "<group>"; };
 		2C1B8BAB2132EDA100839542 /* DPAProductB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAProductB2.h; sourceTree = "<group>"; };
@@ -50,6 +52,8 @@
 		2C57D53B2131886600B13832 /* DPAMetaProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAMetaProductA.m; sourceTree = "<group>"; };
 		2C57D53E2131887E00B13832 /* DPAMetaProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAMetaProductB.h; sourceTree = "<group>"; };
 		2C57D53F2131887E00B13832 /* DPAMetaProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAMetaProductB.m; sourceTree = "<group>"; };
+		2C0DE655213135A90053D287 /* DPAMetaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAMetaFactory.h; sourceTree = "<group>"; };
+		2C0DE656213135A90053D287 /* DPAMetaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAMetaFactory.m; sourceTree = "<group>"; };
 		2C67F0AF2130112A00BCA24C /* DPAbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DPAbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C67F0B22130112A00BCA24C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +139,8 @@
 				2C57D52B213185E100B13832 /* Factory */,
 				2C57D5382131882900B13832 /* Product */,
 				2C67F0B22130112A00BCA24C /* main.m */,
+				2C0DE655213135A90053D287 /* DPAMetaFactory.h */,
+				2C0DE656213135A90053D287 /* DPAMetaFactory.m */,
 			);
 			path = DPAbstractFactory;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 				2C57D52A2131857000B13832 /* DPAMetaFactory.m in Sources */,
 				2C1B8BB02132EDB400839542 /* DPAProductA1.m in Sources */,
 				2C57D537213187D500B13832 /* DPAFactoryB.m in Sources */,
+				2C0DE657213135A90053D287 /* DPAMetaFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
