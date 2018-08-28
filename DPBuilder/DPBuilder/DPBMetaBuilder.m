@@ -15,7 +15,11 @@
     return self;
 }
 
-- (DPBMetaBuilder *)createProduct:(NSString *)string {
+- (DPBMetaBuilder *)createString:(NSString *)string {
+    return self;
+}
+
+- (DPBMetaBuilder *)createNumber:(NSString *)number {
     return self;
 }
 

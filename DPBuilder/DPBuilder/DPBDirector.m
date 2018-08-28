@@ -12,13 +12,14 @@
 
 @implementation DPBDirector
 
+//GetResult
 - (DPBProduct *)createProductA:(DPBMetaBuilder *)builder {
-    [[builder builder] createProduct:@"productA"];
+    [[[builder builder] createString:@"productA"] createNumber:@"10"];
     return builder.product;
 }
 
 - (DPBProduct *)createProductB:(DPBMetaBuilder *)builder {
-    [[builder builder] createProduct:@"productB"];
+    [[[builder builder] createString:@"productB"] createNumber:@"20"];
     return builder.product;
 }
 

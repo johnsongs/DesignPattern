@@ -11,5 +11,6 @@
 @interface DPBProduct : NSObject
 
 @property (nonatomic, copy) NSString *string;
+@property (nonatomic, copy) NSString *number;
 
 @end

@@ -10,9 +10,14 @@
 
 @implementation DPBuilder
 
-- (DPBMetaBuilder *)createProduct:(NSString *)string {
+- (DPBMetaBuilder *)createString:(NSString *)string {
     self.product.string = [NSString stringWithFormat:@"CREAT BY BUILDER %@",string];
-    return [super createProduct:string];
+    return [super createString:string];
+}
+
+- (DPBMetaBuilder *)createNumber:(NSString *)number {
+    self.product.number = [NSString stringWithFormat:@"CREAT BY BUILDER %@",number];
+    return [super createNumber:number];
 }
 
 @end

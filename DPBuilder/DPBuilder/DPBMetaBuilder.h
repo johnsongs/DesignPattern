@@ -15,6 +15,7 @@
 
 - (DPBMetaBuilder *)builder;
 
-- (DPBMetaBuilder *)createProduct:(NSString *)string;
+- (DPBMetaBuilder *)createString:(NSString *)string;
+- (DPBMetaBuilder *)createNumber:(NSString *)number;
 
 @end

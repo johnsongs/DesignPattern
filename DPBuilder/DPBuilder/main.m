@@ -16,9 +16,10 @@ int main(int argc, const char * argv[]) {
         DPBMetaBuilder *builder = [[DPBuilder alloc] init];
         
         DPBDirector *director = [[DPBDirector alloc] init];
+        
         DPBProduct *productA = [director createProductA:builder];
         DPBProduct *productB = [director createProductB:builder];
-        NSLog(@"%@~~%@",productA.string,productB.string);
+        NSLog(@"%@,%@~~%@,%@",productA.string,productA.number,productB.string,productB.number);
     }
     return 0;
 }
