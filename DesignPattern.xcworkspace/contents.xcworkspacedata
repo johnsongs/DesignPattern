@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DPAdapter/DPAdapter.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DPBuilder/DPBuilder.xcodeproj">
    </FileRef>
    <FileRef
