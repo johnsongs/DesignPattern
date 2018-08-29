@@ -27,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2CC152012137005900ED794E /* AdapterUML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AdapterUML.png; sourceTree = "<group>"; };
+		2CC152022137005A00ED794E /* AdapterClassUML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AdapterClassUML.png; sourceTree = "<group>"; };
 		2CD774072136913F00944D6C /* DPAdapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DPAdapter; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD7740A2136913F00944D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CD77412213691BA00944D6C /* DPAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAdapter.h; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		2CD773FE2136913F00944D6C = {
 			isa = PBXGroup;
 			children = (
+				2CC152022137005A00ED794E /* AdapterClassUML.png */,
+				2CC152012137005900ED794E /* AdapterUML.png */,
 				2CD774092136913F00944D6C /* DPAdapter */,
 				2CD774082136913F00944D6C /* Products */,
 			);
