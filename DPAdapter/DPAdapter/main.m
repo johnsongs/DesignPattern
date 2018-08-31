@@ -14,11 +14,15 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // 继承实现
         DPAdapter *adapter = [[DPAdapter alloc] init];
-        [adapter request];
+        if ([adapter respondsToSelector:@selector(request)]) {
+            [adapter request];
+        }
         
         //对象实现
         DPAdapter1 *adapter1 = [[DPAdapter1 alloc] init];
-        [adapter1 request];
+        if ([adapter1 respondsToSelector:@selector(request)]) {
+            [adapter1 request];
+        }
     }
     return 0;
 }
